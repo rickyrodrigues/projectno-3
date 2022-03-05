@@ -76,7 +76,8 @@ body {
   }
   #topnav {
     background-color: rgb(59, 59, 59);
-    padding: 10px 75px 10px 75px;  
+    padding: 10px 75px 10px 75px; 
+     /*to solve scrolling problem and navbar problem  */
     position: fixed;
     width: 100%; 
     top: 0;
