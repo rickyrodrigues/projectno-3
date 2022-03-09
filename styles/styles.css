@@ -5,6 +5,7 @@ html {
   *:before,*:after {
     box-sizing: inherit;
   }
+  
 /*----------------------- global---------------------- */
 body {
   color: antiquewhite;
@@ -116,14 +117,14 @@ body {
   }
  
   /* --------------------header------------------- */
-   /* #header{
+   #header{
    position: fixed;
    width: 100%; 
    top: 0;
    left: 0;
    
      
-  }  */
+  } 
   #header-img {
     max-width: 500px;
     /* min-width: 95%; */
