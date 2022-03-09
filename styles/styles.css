@@ -13,14 +13,7 @@ body {
   text-align: center;
  
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
-  /* background-image: url("../images/raghu-nayyar-dskdujAQU44-unsplash.jpg"); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  
-
- 
+  font-family: 'Montserrat', sans-serif; 
 }
 .content-wrap {
   max-width: 900px;
@@ -85,9 +78,9 @@ body {
     width: 100%; 
     top: 0;
     left: 0;
-    overflow: hidden;
-    z-index:300;
-   
+    overflow: hidden;    
+    z-index: 1;
+
     width: 100%; /* Full width */
     transition: top 0.3s;
     @media (max-width: 568px) {
@@ -102,7 +95,7 @@ body {
     float: inline-start;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 16px;
     text-decoration: none;
     font-size: 17px;
     text-align: center;
@@ -118,16 +111,13 @@ body {
  
   /* --------------------header------------------- */
    #header{
-   position: fixed;
-   width: 100%; 
-   top: 0;
-   left: 0;
-   
-     
+position: fixed;
+z-index: 1;
+padding-top:60px;
   } 
+  
   #header-img {
     max-width: 500px;
-    /* min-width: 95%; */
     max-height: min-content;
   
     @media (max-width: 568px) {
@@ -142,10 +132,7 @@ body {
   .box {
    border-radius: 20px;  
    max-width:350px ;
-   /* min-width: 85%; */
    height: 550px;
-  
-   /* position: relative; */
    display: inline-block;
    column-gap: 20px;
    justify-content: center;
@@ -274,21 +261,13 @@ color: rgba(0, 0, 0, 0);
     }
   
  
-  } */
+  } 
   
   
   #img {
     width: 85%;
     position: relative;
-      /* min-height: 300px; */
-     /* }
-@media screen and (max-width: 749px) {
-  h1 {
-    font-size: 57px;
-    line-height: 0.9;
-    margin-bottom: 20px;
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
+
 }
 #header-img {
 width: max-content;
