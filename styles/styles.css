@@ -154,7 +154,7 @@ color: rgba(0, 0, 0, 0);
 
   }
   .flex-container > div {
-   background-color: rgba(17, 9, 9, 0.671);
+   background-color: rgb(32 27 27);
    margin: 20px;
    font-size: 15px;}
   
@@ -242,7 +242,7 @@ color: rgba(0, 0, 0, 0);
   float: left;
   width: 20%; 
 }
-
+/* media query */
 @media screen and (min-width: 750px) {
   header, footer {
         text-align: center;
