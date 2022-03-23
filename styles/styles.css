@@ -167,9 +167,7 @@ color: rgba(0, 0, 0, 0);
     margin: 25px 10px 25px 10px;
   }
 
-  /* #submit{
-    margin: 25px 10px 25px 10px;
-  } */
+  /* #submit */
     .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
     .btn-grad {
        margin: 10px 15px;
