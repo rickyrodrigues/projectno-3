@@ -120,8 +120,7 @@ padding-top:60px;
     max-width: 500px;
     max-height: min-content;
   
-    @media (max-width: 568px) {
-        
+    @media (max-width: 568px) { 
       display: flex;
       flex-direction: column;
       max-width: max-content;
@@ -242,50 +241,52 @@ color: rgba(0, 0, 0, 0);
 }
 /* media query */
 @media screen and (min-width: 750px) {
-  header, footer {
-        text-align: center;
+
+  header,
+  footer {
+    text-align: center;
   }
- 
-  h1{
-   font-size: 4em;
+
+  .hobby-item img {
+    float: left;
+    margin-right: 20px;
   }
-  h2 {
+
+  hobby-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 300px;
+    /* height: 300px; *}
+}
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+  }
+
+  h1 {
     line-height: 0.9;
   }
-    h3 {
-      font-size: 15;
 
-    }
-  
- 
-  } 
-  
-  
-  #img {
-    width: 85%;
-    position: relative;
+  h2 {
+    line-height: 1;
+    margin-bottom: 10px;
 
-}
-#header-img {
-width: max-content;
-}
-#topnav {
-  padding: 0;
-}
-#topnav a{
-padding-top: 10px;
-}
-p {
-  
- font-size: 15px;
-}
-h2 {
-  line-height: 1;
-}
-.contact-list a {
-  padding: 5px;
-}
-h3 {
-  font-size: 16px;
-}
+  }
 
+  .contact-list a {
+    padding: 5px;
+  }
+}
