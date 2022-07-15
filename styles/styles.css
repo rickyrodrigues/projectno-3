@@ -27,9 +27,10 @@ body {
   a:hover {
     text-decoration: none;}
   h1 {
-    font-size: 3em;
+    font-size: 4.5em;
     line-height: 1;
     margin-top: 100px;
+    padding-top: 45px;
    
   }
   h2 {
@@ -37,7 +38,12 @@ body {
     padding-bottom:25px;
     margin: 0px;
   }
-  h1, h2 {
+  h4 {
+     font-size: 3em;
+     line-height: 1;
+     margin-top: 100px;
+  }
+  h1, h2 ,h4 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     
@@ -72,7 +78,7 @@ body {
   }
   #topnav {
     background-color: rgb(59, 59, 59);
-    padding: 10px 75px 10px 75px; 
+    padding: 10px 0px 10px 0px; 
      /*to solve scrolling problem and navbar problem*/
     position: fixed;
     width: 100%; 
@@ -83,13 +89,7 @@ body {
 
     width: 100%; /* Full width */
     transition: top 0.3s;
-    @media (max-width: 568px) {
-      margin-top: 1px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
+  
   }
   #topnav a {
     float: inline-start;
@@ -120,18 +120,12 @@ padding-top:60px;
     max-width: 500px;
     max-height: min-content;
   
-    @media (max-width: 568px) { 
-      display: flex;
-      flex-direction: column;
-      max-width: max-content;
-      max-height:10px;
-    }
   } 
   /* --------------------boxes---------------------- */
   .box {
    border-radius: 20px;  
    max-width:350px ;
-   height: 550px;
+   min-height: fit-content;
    display: inline-block;
    column-gap: 20px;
    justify-content: center;
@@ -239,7 +233,7 @@ color: rgba(0, 0, 0, 0);
   width: 20%; 
 }
 /* media query */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 548px) {
 
   header,
   footer {
@@ -251,7 +245,7 @@ color: rgba(0, 0, 0, 0);
     margin-right: 20px;
   }
 
-  hobby-item {
+  .hobby-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
@@ -264,15 +258,7 @@ color: rgba(0, 0, 0, 0);
 
   img {
     width: 300px;
-    /* height: 300px; *}
-}
-@media screen and (max-width: 749px) {
-  h1 {
-    font-size: 75px;
-    line-height: 0.9;
-    margin-bottom: 20px;
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
+
   }
 
   h1 {
@@ -287,5 +273,8 @@ color: rgba(0, 0, 0, 0);
 
   .contact-list a {
     padding: 5px;
+  }
+  .topnav {
+    padding: 10px 0px;
   }
 }
